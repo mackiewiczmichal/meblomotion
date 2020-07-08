@@ -722,7 +722,7 @@ div[class$="-col"]{
     text-align: center;
     .info-card{
         position: relative;
-        width:40%;
+        width:100%;
         background: #fff;
         padding: 25px;
         box-shadow: 10px 10px 15px 0px rgba(107,107,107,0.15);
@@ -755,12 +755,22 @@ div[class$="-col"]{
             transition: all 800ms ease;
           }
     }
+    @media(min-width:768px){
+        .info-card{
+            width:40%;
+        }
+    }
     
     .map{
-        width:50%;
+        width:100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    @media(min-width:768px){
+        .map{
+            width:50%;
+        }
     }
 
 }

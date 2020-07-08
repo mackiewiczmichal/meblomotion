@@ -972,7 +972,7 @@ div[class$="-col"] {
 
 .contact-2-col .info-card {
   position: relative;
-  width: 40%;
+  width: 100%;
   background: #fff;
   padding: 25px;
   -webkit-box-shadow: 10px 10px 15px 0px rgba(107, 107, 107, 0.15);
@@ -1012,8 +1012,14 @@ div[class$="-col"] {
   transition: all 800ms ease;
 }
 
+@media (min-width: 768px) {
+  .contact-2-col .info-card {
+    width: 40%;
+  }
+}
+
 .contact-2-col .map {
-  width: 50%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1023,6 +1029,12 @@ div[class$="-col"] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 768px) {
+  .contact-2-col .map {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
