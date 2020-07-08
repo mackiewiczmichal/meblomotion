@@ -183,11 +183,11 @@ nav{
         background: no-repeat fixed center;
         background-position: center;
         background-size: cover;
-        background-image: url("/images/MebloMotion-main1-overlay.jpg");
+        background-image: url("../images/MebloMotion-main1-overlay.jpg");
     }
     &--half{
         min-height: 65vh;
-        background: url(/images/kuchnia-meblomotion.jpg) no-repeat;
+        background: url(../images/kuchnia-meblomotion.jpg) no-repeat;
         background-position: top;
         background-size: cover;
     }
@@ -542,7 +542,7 @@ div[class$="-col"]{
 //Footer section
 .footer{
     display: grid;
-    background:url("/images/MebloMotion-main1.jpg") no-repeat fixed center;
+    background:url("../images/MebloMotion-main1.jpg") no-repeat fixed center;
     background-size:cover;
     background-position: center;
     grid-template-columns: 100%;
@@ -691,7 +691,7 @@ div[class$="-col"]{
                     top:10px;
                 }
                 &:before{
-                    content:url('/images/001-information.png');
+                    content:url('../images/001-information.png');
                     position: absolute;
                     left:25px;
                     top:5px;
